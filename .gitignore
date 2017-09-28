@@ -1,0 +1,6 @@
+# git should ignore the below files
+Temp/
+Library/
+*.csproj
+*.sln
+.vs/
