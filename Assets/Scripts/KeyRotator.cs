@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class KeyRotator : MonoBehaviour {
 
-    public float rotSpeed = 5f;
+    //declare public vars
+    public float rotSpeed;
 
-	// Use this for initialization
 	void Start()
     {
 		
 	}
 	
-	// Update is called once per frame
 	void Update()
     {
+        //rotate Key along Y axis by public var
         transform.Rotate(0f, rotSpeed, 0f);
 	}
 }
