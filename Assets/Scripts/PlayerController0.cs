@@ -3,13 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlayerController : MonoBehaviour {
+public class PlayerController0 : MonoBehaviour {
+
+	/*	
+	 *	player controller script for Level0_Movement
+	 *		-only supports basic, horizontal movement
+	 * 
+	 */
 
     //declare global vars
     public float moveSpeed;             //speed of player movement
     public GameObject doorClosed;       //closed door sprite
     public GameObject doorOpen;         //open door sprite
-    private bool keyStatus = false;     //has the key been picked up?
+    //private bool keyStatus = false;     //has the key been picked up?
 
     //declare player characteristics
     Rigidbody2D myRB; //RigidBody for physics
